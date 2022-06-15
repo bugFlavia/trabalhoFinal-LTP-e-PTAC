@@ -1,0 +1,253 @@
+  body{
+       display: flex;
+       flex-direction: row;
+       justify-content: center;
+  }
+  
+  a{
+      text-decoration: none;
+      color: black;
+  }
+  
+  a:hover{
+            text-decoration: underline;
+  }
+
+  h5{
+      display: inline-flex;
+      padding-right: 15px;
+  }
+
+  .geral{
+         display: flex;
+         flex-direction: row;
+         justify-content: center;
+  }
+
+ .noticiaSpam{
+              width: 80%;
+              background-color: aliceblue;
+              margin: 5px 0px;
+              padding: 0px 50px;
+              border-radius: 8px;
+ }
+
+ .divisaoNoticia{
+                 display: inline-block;
+                 padding: 0px 5px;
+                 color: gray;
+ }
+
+ .geralDestaque{
+                display: flex;
+                justify-content: center;
+                flex-direction: row;
+ }
+
+ .spamDestaque{
+               width: 70%;
+               background-color: rgb(245,245,245);
+               margin: 0px 0px 10px 0px;
+               padding-top: 15px;
+               border-radius: 8px;
+ }
+
+ .elementosDestaque{
+                    padding: 0px 100px;
+ }
+
+.destaqueImagem img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+@media screen and (max-width: 1200px) and (min-width: 1025px){
+    body{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+    }
+    .geral{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+ }
+ .noticiaSpam{
+     width: 80%;
+ }
+ .destaqueImagem img{
+    width: 90%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.divisaoNoticia{
+    display: inline-block;
+    padding: 0px 5px;
+   
+}
+
+.geralDestaque{
+   display: flex;
+   justify-content: center;
+   flex-direction: row;
+}
+
+.spamDestaque{
+  width: 70%;
+}
+h5{
+    display: inline-flex;
+    padding-right: 15px;
+}
+
+.elementosDestaque{
+    padding: 0px 100px;
+}
+
+ } 
+
+ @media screen and (max-width: 1024px) and (min-width: 769px){
+    body{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+    }
+    .geral{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+ }
+ .noticiaSpam{
+     width: 80%;
+ }
+ .destaqueImagem img{
+    width: 90%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.divisaoNoticia{
+    display: inline-block;
+    padding: 0px 5px;
+   
+}
+
+.geralDestaque{
+   display: flex;
+   justify-content: center;
+   flex-direction: row;
+}
+
+.spamDestaque{
+  width: 90%;
+}
+h5{
+    display: inline-flex;
+    padding-right: 15px;
+}
+
+.elementosDestaque{
+    padding: 0px 100px;
+}
+
+ } 
+
+ @media screen and (max-width: 768px) and (min-width: 481px){
+    body{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+    }
+    .geral{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+ }
+ .noticiaSpam{
+     width: 80%;
+ }
+ .destaqueImagem img{
+     width: 90%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.divisaoNoticia{
+    display: inline-block;
+    padding: 0px 5px;
+    
+   
+}
+
+.geralDestaque{
+   display: flex;
+   justify-content: center;
+   flex-direction: row;
+}
+
+.spamDestaque{
+  width: 100%;
+}
+h5{
+    display: inline-flex;
+    padding-right: 15px;
+}
+
+.elementosDestaque{
+    padding: 0px 10px;
+}
+
+ } 
+
+ @media screen and (max-width: 480px) and (min-width: 320px){
+    body{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+    }
+    .geral{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+ }
+ .noticiaSpam{
+     width: 80%;
+ }
+ .destaqueImagem img{
+     width: 90%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.divisaoNoticia{
+    display: inline-block;
+    padding: 0px 5px;
+   
+}
+
+.geralDestaque{
+   display: flex;
+   justify-content: center;
+   flex-direction: row;
+}
+
+.spamDestaque{
+  width: 70%;
+}
+h5{
+    display: inline-flex;
+    padding-right: 15px;
+}
+
+.elementosDestaque{
+    padding: 0px 100px;
+}
+
+ } 
+
